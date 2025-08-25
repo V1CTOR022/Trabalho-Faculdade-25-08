@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html> <lang="pt-br">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> tabela </title>
+</head>
+  <table border= "1">
+    <h2> Lista de Produtos</h2>
+    <tr>
+      <td><b>Produto<b></td>
+      <td><b>Preço<b></td>
+      <td><b>Quantida em Estoque<b></td> 
+    </tr>
+    <td>Pocessador</td>
+    <td>R$1.093,00</td>
+    <td>52</td>
+    </tr>
+    <tr>
+    <td>Placa Mãe</td>
+    <td>R$838,00</td>
+    <td>64</td>
+    </tr>
+    <tr>
+    <td>Memória Ram</td>
+    <td>R$348,99</td>
+    <td>32</td>
+    </tr>
+         </table>
+        <br>
+
+        <h2>Fromulário de Pedido</h2>
+        <form action="/submit_form" method="post">
+            <label for="nome"><b>Nome do Cliente</b>:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>  <br><br>
+
+            <label for="Quantidade""><b>Quantidade:</b></label><br>
+            <input type="name" id="Quantidade" name="Quantidade" placeholder="Digite a Quantidade" required><br><br>
+
+            <label for="Produto"><b>Escolha um Produto:</b><label><br>
+            <select id="produto" name="produto" required>
+            <option
+              value="Processador">Processador</option>
+              <option value="Placa Mãe">Placa Mãe</option>
+              <option value="Memória Ram">Memória Ram</option>
+            </select><br><br> 
+            <label for="Quantidade"><b>Quantidade:</b></label><br>
+                <input type="number" id="Quantidade" name="Quantidade" placeholder="Digite a Quantidade" required><br><br>
+
+            <input type="submit" value="Enviar">
+            </form>
+
+ </body>
+
+</body>
+</html>
